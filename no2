@@ -1,0 +1,28 @@
+#soal no 2
+#jumlah pasien = n = 20
+#peluang sembuh = p = 0.2
+
+#a
+dbinom(x=4,20,0.2)
+#output = 0.2181994
+
+#b
+x=0:20
+p<-dbinom(x=0:20,20,0.2)
+plot(x,p,type = 'h',
+     ylim=c(0,0.3),
+     lwd=10,
+     col = rainbow(5))
+
+#c
+n=20 #jumlah pasien
+p=0.2 #peluang
+q=1-p #peluang failure nya
+
+#mean
+me=n*p
+me
+
+#variance
+va=n*p*q
+va
