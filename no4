@@ -6,8 +6,7 @@ df = 10
 dchisq(x , df)
 
 #b
-#untuk running nya langsung di blok saja yang 4.a dan 4.b
-p <- rchisq(100,df = 10)
+p <- rchisq(100,df)
 
 hist(p,
      freq = FALSE,
@@ -17,7 +16,9 @@ hist(p,
 
 #c
 #mean
-df
+mean1 = df
+mean1
 
 #variance
-2*df
+var1 = 2*df
+var1
