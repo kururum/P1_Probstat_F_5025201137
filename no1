@@ -1,5 +1,7 @@
 #soal no 1
 
+#catatan untuk soal ini, pastikan untuk menginstall package dari library dplyr dam ggplot2 untuk bisa menjalankan poin d
+
 #a
 p = 0.20
 n = 3
@@ -41,5 +43,3 @@ p=0.2
 
 #variance
 (1 - p) / p^2
-
-
