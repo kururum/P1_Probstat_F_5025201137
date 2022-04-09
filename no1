@@ -39,7 +39,9 @@ ggplot(aes(x = factor(x), y = prob, fill = Failures)) +
 p=0.2
 
 #mean
-1 / p
+mean1 = 1 / p
+mean1
 
 #variance
-(1 - p) / p^2
+var1 = (1 - p) / p^2
+var1
