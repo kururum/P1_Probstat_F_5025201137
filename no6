@@ -13,7 +13,12 @@ rata_rata
 x1 <- floor(mean(data))
 x1
 x2 <- round(mean(data))
-x2
+if (x1 == x2){
+  x2=x2+1
+  print(x2)
+}else{
+  print(x2)
+}
 
 z_scores <- (data - mean(data) / sd(data))
 
