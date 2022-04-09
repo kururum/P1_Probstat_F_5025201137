@@ -13,7 +13,7 @@ mean(rgeom(n = 10000, prob = p) == 3)
 #c
 #pada soal 1.a itu merupakan nilai exact nya, yaitu 0.1024
 #sedangkan 1.b merupakan nilai dari simulasi ketika diambil dengan 10000 data random pada kasus yang serupa
-#dan ternyata hasil nya sesuai karena mendekati nilai exact nya
+#dan ternyata hasil nya sesuai karena nilai simulasi yang mendekati nilai exact nya
 
 #d
 library(dplyr)
