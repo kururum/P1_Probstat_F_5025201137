@@ -8,6 +8,7 @@ a
 #output = 0.2181994
 
 #b
+set.seed(20)
 data <- rbinom(20,20,0.2)
 hist(data,
      xlim = c(0,8))
