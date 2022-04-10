@@ -24,6 +24,7 @@ babies %>% ggplot() +
 
 #c
 babies %>% dplyr::summarize(six_babies = sum(babies$data == 6) / n())
+
 #dapat dilihat bahwa hasil simulasi nya sekitar 11.5% (berdasarkan perhitungan diatas)
 #sedangkan nilai exact nya yaitu 12,8% atau jika dibulatkan menjadi 13%
 #yang artinya sesuai karena nilai simulasi mendekati nilai exact
