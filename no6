@@ -5,7 +5,7 @@ n = 100
 m = 50
 std = 8
 
-#data <- c(1,2,4,2,6,3,10,11,5,3,6,85)
+set.seed(100)
 data <- rnorm(100,50,8)
 
 rata_rata <- mean(data)
