@@ -10,7 +10,7 @@ a
 #b
 set.seed(20)
 data <- rbinom(20,20,0.2)
-hist(data,
+hist(data,hahahaa
      xlim = c(0,8))
 
 #c
