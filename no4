@@ -6,6 +6,7 @@ df = 10
 dchisq(x , df)
 
 #b
+set.seed(100)
 p <- rchisq(100,df)
 
 hist(p,
